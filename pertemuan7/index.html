@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tag untuk formulir</title>
+</head>
+<body>
+    <form action="/path">
+    <p>
+        <fieldset>
+            <legend>Formulir calon Pegawai</legend>
+            <label for="name">Nama: </label>
+            <input type="text" name="name" /><br>
+            <p>
+                <label for="address">Alamat: </label>
+                <input type="text" name="address" /><br>
+            </p>
+            <p>
+                <label for="phoneNumber">Password: </label>
+                <input type="text" name="password" /><br>
+            </p>
+            <p>
+                Jenis Kelamin : 
+                <input type="radio" name="Jenis Kelamin" value="Laki - laki" checked/>
+                Laki - laki
+                <input type="radio" name="Jenis Kelamin" value="Perempuan" checked/>
+                Perempuan
+                </p>
+            <p>
+                Bahasa pemrograman yang dikuasai :
+                <input type="checkbox" name="Web"> Web
+                <input type="checkbox" name="MOBILE"> MOBILE
+                <input type="checkbox" name="DESKTOP"> DESKTOP
+            </p>
+            <p>
+                Kota Asal :
+                <select>
+                <option value="Semarang">Semarang</option>
+                <option value="Makassar">Makassar</option>
+                <option value="Manado">Manado</option>
+                </select>
+            </p>
+            
+        </fieldset>
+    </p>
+    <p>
+        Apa yang Membuat Kami harus memilih Anda? : <br>
+        <textarea rows="4" cols="50" placeholder="Tulis jawaban Anda di sini...." required></textarea>
+    </p>
+    <p>
+        <button>proses</button>
+    </p>
+    </form>
+</body>
+</html>
